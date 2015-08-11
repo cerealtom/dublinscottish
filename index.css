@@ -75,3 +75,12 @@ img {
 ul.none {
 	list-style-type: none;
 }
+@media only screen and (max-device-width: 480px) {
+	body,td,th {
+		font-family:"Oxygen";
+		font-size:large;
+		color:#333333;
+	}
+	p { font-size:x-large; }
+	li { font-size:x-large; }
+	}
