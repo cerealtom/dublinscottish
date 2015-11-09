@@ -11,11 +11,11 @@ body {
 	background-color: #FFFFFF;
 }
 a:link {
-	color: #3399FF;
+	color: #0066CC;
 	text-decoration: none;
 }
 a:visited {
-	color: #333333;
+	color: #0066CC;
 	text-decoration: none;
 }
 a:hover {
@@ -39,6 +39,8 @@ a:active {
 	background-color: #FFFFFF;
 	background-image: url(images/header.jpg);
 }
+#header a:link { color: #333333;}
+#header a:visited { color: #333333;}
 #content {
 	padding-top:15px;
 	padding-bottom: 50px;
