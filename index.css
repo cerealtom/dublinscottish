@@ -58,16 +58,10 @@ a:active {
 	float: left;
 }
 #footer {
-	width: 870px;
+	width: 90%;
 	margin-bottom: 0px;
 	padding-left: 40px;
 	padding-bottom: 10px;
-}
-#youtube {
-	width: 425px;
-	margin-right: auto;
-	margin-left: auto;
-	padding-bottom: 5px;
 }
 .clear {
 	clear: both;
