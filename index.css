@@ -118,14 +118,14 @@ img {
 ul.none {
 	list-style-type: none;
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-device-width: 600px) {
 	body,td,th {
-		font-size: 130%;
+		font-size: 150%;
 		color: #333333;
 		}
 	#container { width: 90%;}
-	p	{ font-size: 100%	}
-	i	{	font-size: 80%	}
+	p	{ font-size: 140%	}
+	i	{	font-size: 100%	}
 	li { font-size: 80%;	}
 	img.mob { width: 250%}
 	#logo { font-size: 220%;	}
@@ -134,7 +134,7 @@ ul.none {
 		display: block;
 		text-align: center;
 		}
-	#nav-mob li a {	font-size: 150%;	}
+	#nav-mob li a {	font-size: 180%;	}
 	#content {
 	padding-left: 6%;
 	padding-right: 6%;
