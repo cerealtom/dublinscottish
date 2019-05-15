@@ -43,6 +43,10 @@ a:active {
 
 #header a:visited { color: #333333;}
 
+#crest	{
+	background-image: url(images/crest.png);
+}
+
 #logo {
 	color: #645665;
 	font-size: 315%;
@@ -101,7 +105,12 @@ a:active {
 }
 .clear {
 	clear: both;
-	
+}
+.left	{
+	float: left;
+}
+.right	{
+	float: right;
 }
 img {
 	border: none;
@@ -109,16 +118,27 @@ img {
 ul.none {
 	list-style-type: none;
 }
-@media only screen and (max-device-width: 950px) {
+@media only screen and (max-width: 950px) {
 	body,td,th {
 		font-size: 130%;
 		color: #333333;
-	}
+		}
+	#container { width: 90%;}
 	p	{ font-size: 100%	}
 	i	{	font-size: 80%	}
 	li { font-size: 80%;	}
 	img.mob { width: 250%}
 	#logo { font-size: 220%;	}
 	#nav { display: none;	}
-	#nav-mob {	display: block;}
+	#nav-mob {
+		display: block;
+		text-align: center;
+		}
+	#nav-mob li a {	font-size: 150%;	}
+	#content {
+	padding-left: 6%;
+	padding-right: 6%;
+		}
+	.left	{	float: center:}
+	.right	{	float: center;}
 	}
