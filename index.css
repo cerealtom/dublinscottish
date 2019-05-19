@@ -113,6 +113,12 @@ a:active {
 img {
 	border: none;
 }
+.left    {
+    float: left;
+}
+.right    {
+    float: right;
+}
 ul.none {
 	list-style-type: none;
 }
