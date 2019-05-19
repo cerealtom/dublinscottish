@@ -43,8 +43,12 @@ a:active {
 
 #header a:visited { color: #333333;}
 
-#crest	{
-	background-image: url(images/crest.png);
+.crest	{
+	width: 4.6%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top:	3.6%;
 }
 
 #logo {
@@ -55,7 +59,7 @@ a:active {
 	text-align:center;
 	margin-top: 1%;
 	margin-bottom: 0%;
-	padding-top: 15%;
+	padding-top: 4.4%;
 }
 #nav {
 	display: block;
@@ -86,7 +90,7 @@ a:active {
 }
 
 /* Change the link color on hover */
-#nav-mob li a:hover {
+#nav-mob	li a:hover {
   background-color: #555;
   color: white;
 }
@@ -106,18 +110,63 @@ a:active {
 .clear {
 	clear: both;
 }
-.left	{
-	float: left;
-}
-.right	{
-	float: right;
-}
 img {
 	border: none;
 }
 ul.none {
 	list-style-type: none;
 }
+@media only screen and (max-width: 1280px) {
+	body,td,th {
+		font-size: 120%;
+		color: #333333;
+		}
+	#container { width: 70%;}
+	}
+@media only screen and (max-width: 800px) {
+	body,td,th {
+		font-size: 140%;
+		color: #333333;
+		}
+	#container { width: 90%;}
+	p	{ font-size: 100%	}
+	i	{	font-size: 100%	}
+	li { font-size: 80%;	}
+	img.mob { width: 250%}
+	#logo { font-size: 220%;	}
+	#nav { display: none;	}
+	#nav-mob {
+		display: block;
+		text-align: center;
+		}
+	#nav-mob li a {	font-size: 120%;	}
+	#content {
+		padding-left: 6%;
+		padding-right: 6%;
+		}
+	}
+@media only screen and (max-device-width: 800px) {
+	body,td,th {
+		font-size: 150%;
+		color: #333333;
+		}
+	#container { width: 90%;}
+	p	{ font-size: 140%	}
+	i	{	font-size: 100%	}
+	li { font-size: 80%;	}
+	img.mob { width: 250%}
+	#logo { font-size: 220%;	}
+	#nav { display: none;	}
+	#nav-mob {
+		display: block;
+		text-align: center;
+		}
+	#nav-mob li a {	font-size: 180%;	}
+	#content {
+		padding-left: 6%;
+		padding-right: 6%;
+		}
+	}
 @media only screen and (max-device-width: 600px) {
 	body,td,th {
 		font-size: 150%;
@@ -136,9 +185,7 @@ ul.none {
 		}
 	#nav-mob li a {	font-size: 180%;	}
 	#content {
-	padding-left: 6%;
-	padding-right: 6%;
+		padding-left: 6%;
+		padding-right: 6%;
 		}
-	.left	{	float: center:}
-	.right	{	float: center;}
 	}
