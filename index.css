@@ -107,6 +107,7 @@ a:active {
 	padding-left: 3%;
 	padding-bottom: .75%;
 }
+
 .clear {
 	clear: both;
 }
@@ -114,84 +115,64 @@ img {
 	border: none;
 }
 .left    {
-    float: left;
+	float: left;
+	padding-left: 5%;
 }
 .right    {
-    float: right;
+	float: right;
+	padding: 5%;
 }
 ul.none {
 	list-style-type: none;
 }
-@media only screen and (max-width: 1280px) {
+.small	{
+	font-size: small;
+}
+
+@media only screen and (max-width: 1281px) {
 	body,td,th {
 		font-size: 120%;
 		color: #333333;
 		}
 	#container { width: 70%;}
 	}
-@media only screen and (max-width: 800px) {
-	body,td,th {
-		font-size: 140%;
-		color: #333333;
-		}
-	#container { width: 90%;}
-	p	{ font-size: 100%	}
-	i	{	font-size: 100%	}
-	li { font-size: 80%;	}
-	img.mob { width: 250%}
-	#logo { font-size: 220%;	}
-	#nav { display: none;	}
-	#nav-mob {
-		display: block;
-		text-align: center;
-		}
-	#nav-mob li a {	font-size: 120%;	}
-	#content {
-		padding-left: 6%;
-		padding-right: 6%;
-		}
-	}
-@media only screen and (max-device-width: 800px) {
-	body,td,th {
-		font-size: 150%;
-		color: #333333;
-		}
-	#container { width: 90%;}
-	p	{ font-size: 140%	}
-	i	{	font-size: 100%	}
-	li { font-size: 80%;	}
-	img.mob { width: 250%}
-	#logo { font-size: 220%;	}
+	
+@media only screen and (max-width: 961px) {
+	#container { width: 95%;}
 	#nav { display: none;	}
 	#nav-mob {
 		display: block;
 		text-align: center;
 		}
 	#nav-mob li a {	font-size: 180%;	}
-	#content {
-		padding-left: 6%;
-		padding-right: 6%;
-		}
+	.left    {
+		float: none;
+		margin: auto;
+		display: block;
+}
+	.right    {
+		float: none;
+		display: block;
+		width: 100%;
+}
 	}
-@media only screen and (max-device-width: 600px) {
-	body,td,th {
-		font-size: 150%;
-		color: #333333;
-		}
-	#container { width: 90%;}
+	
+@media only screen and (max-width: 641px) {
+	body,td,th {	font-size: 150%;}
 	p	{ font-size: 140%	}
 	i	{	font-size: 100%	}
 	li { font-size: 80%;	}
 	img.mob { width: 250%}
 	#logo { font-size: 220%;	}
-	#nav { display: none;	}
-	#nav-mob {
-		display: block;
-		text-align: center;
-		}
-	#nav-mob li a {	font-size: 180%;	}
 	#content {
 		padding-left: 6%;
 		padding-right: 6%;
 		}
+	#footer-nav	{	display: none;	}
+	.small	{ font-size: medium; }
+	}
+	
+	
+@media only screen and (max-width: 481px){
+	.small	{ font-size: large; }
 	}
